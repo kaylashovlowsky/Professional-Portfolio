@@ -1,8 +1,13 @@
 :root {
   --default-font-family: "Raleway", sans-serif;
   --secondary-font-family: "Rubik", sans-serif;
+  --primary-color: #d0826f;
+  --secondary-color: #3b4358;
+  --accent-color: #dfe0e0;
 }
-
+body {
+  background-color: var(--accent-color);
+}
 h1,
 h3 {
   font-family: var(--default-font-family);
