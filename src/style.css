@@ -30,6 +30,14 @@ h3 {
   border: 1px solid black;
 }
 
+.external-links {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: var(--secondary-font-family);
+  font-weight: 400;
+  font-size: 13px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 25px;
