@@ -41,6 +41,10 @@ a {
   font-size: 13px;
 }
 
+.sample-apps {
+  border: 7px solid white;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 25px;
