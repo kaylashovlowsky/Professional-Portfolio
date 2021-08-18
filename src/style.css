@@ -55,6 +55,7 @@ a {
 .sample-apps {
   border: 7px solid white;
   height: auto;
+  max-width: 75%;
 }
 
 .app-description {
