@@ -32,12 +32,13 @@ a {
   max-width: 600px;
   padding: 20px;
   border: 1px solid black;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .external-links {
   max-width: 600px;
   margin: 0 auto;
+  margin-bottom: 20px;
   font-family: var(--secondary-font-family);
   font-weight: 400;
   font-size: 13px;
@@ -47,6 +48,10 @@ a {
   display: flex;
 }
 
+.app-display {
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
 .sample-apps {
   border: 7px solid white;
   height: auto;
@@ -63,6 +68,11 @@ a {
 .secondary-background {
   background-color: var(--primary-color);
   padding: 20px;
+}
+
+.footer-content {
+  background-color: var(--primary-color);
+  padding: 50px;
 }
 
 @media (max-width: 576px) {
