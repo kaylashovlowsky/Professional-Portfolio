@@ -24,16 +24,16 @@ h3 {
   font-weight: 200;
 }
 
-a {
+a.professional {
   color: white;
   text-decoration: none;
 }
 
-a:hover {
+a.professional:hover {
   color: black;
 }
 
-a:visited {
+a.professional:visited {
   color: white;
 }
 
@@ -82,6 +82,11 @@ a:visited {
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
+}
+
+a.shecodes-link {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 hr {
