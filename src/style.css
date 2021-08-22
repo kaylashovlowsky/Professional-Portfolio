@@ -58,10 +58,14 @@ a:visited {
 .professional-link {
   background-color: var(--secondary-color);
   padding: 20px;
+  width: 140px;
+  border-radius: 80px;
 }
 
 .professional-link:hover {
   opacity: 0.9;
+  background-color: var(--accent-color);
+  transition: color 0.525ms ease;
 }
 
 .link {
@@ -75,6 +79,8 @@ a:visited {
   color: var(--secondary-color);
   padding: 150px 10px 10px 10px;
   text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .app-display {
