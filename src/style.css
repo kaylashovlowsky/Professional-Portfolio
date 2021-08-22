@@ -97,10 +97,9 @@ hr {
 .sample-apps {
   border: 7px solid white;
   height: auto;
-  max-width: 75%;
 }
 
-.app-description {
+.app-title {
   font-family: var(--default-font-family);
   color: var(--secondary-color);
   text-align: left;
@@ -132,5 +131,13 @@ hr {
   }
   .hero {
     max-width: 450px;
+  }
+
+  .app-title {
+    display: none;
+  }
+
+  .app-description {
+    display: none;
   }
 }
