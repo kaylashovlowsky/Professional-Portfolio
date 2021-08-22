@@ -25,6 +25,16 @@ h3 {
 }
 
 a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: white;
 }
 
 .header {
@@ -40,16 +50,20 @@ a {
 }
 
 .external-links {
-  max-width: 600px;
-  margin: 0 auto;
   margin-bottom: 20px;
+  max-width: 400px;
   font-family: var(--secondary-font-family);
-  font-weight: 400;
-  font-size: 13px;
 }
 
-.row {
+.professional-link {
+  background-color: var(--secondary-color);
+  padding: 20px;
+}
+
+.link {
   display: flex;
+  flex: 1;
+  justify-content: center;
 }
 
 .app-display {
