@@ -60,10 +60,21 @@ a:visited {
   padding: 20px;
 }
 
+.professional-link:hover {
+  opacity: 0.9;
+}
+
 .link {
   display: flex;
   flex: 1;
   justify-content: center;
+}
+
+.introduction {
+  font-family: var(--secondary-font-family);
+  color: var(--secondary-color);
+  padding: 150px 10px 10px 10px;
+  text-align: center;
 }
 
 .app-display {
