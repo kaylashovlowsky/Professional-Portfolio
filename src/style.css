@@ -105,8 +105,8 @@ hr {
   font-family: var(--default-font-family);
   color: var(--secondary-color);
   text-align: left;
-  font-size: 30px;
-  padding: 10px;
+  font-size: 25px;
+  padding: 10px 0px 10px 10px;
   font-weight: 800;
 }
 
