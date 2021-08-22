@@ -133,11 +133,17 @@ hr {
     max-width: 450px;
   }
 
-  .app-title {
+  .app-description {
     display: none;
   }
 
-  .app-description {
-    display: none;
+  .introduction {
+    padding: 60px 10px;
+    text-align: left;
+  }
+
+  .app-display {
+    margin-top: 0px;
+    margin-bottom: 60px;
   }
 }
