@@ -94,8 +94,10 @@ hr {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 .sample-apps {
   border: 7px solid white;
+  border-radius: 5px;
   height: auto;
 }
 
@@ -105,12 +107,25 @@ hr {
   text-align: left;
   font-size: 30px;
   padding: 10px;
+  font-weight: 800;
 }
 
 .small-app-title {
   font-family: var(--default-font-family);
   color: var(--secondary-color);
   font-weight: 800;
+}
+
+.app-description {
+  padding: 0px 10px;
+  font-family: var(--default-font-family);
+  font-weight: 700;
+}
+
+.blog,
+.vanilla,
+.react {
+  padding: 30px 0px;
 }
 
 .secondary-background {
@@ -137,10 +152,6 @@ hr {
   }
   .hero {
     max-width: 450px;
-  }
-
-  .app-description {
-    display: none;
   }
 
   .introduction {
