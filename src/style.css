@@ -157,12 +157,23 @@ hr {
 }
 .profile-pic {
   height: auto;
-
   border-radius: 300px;
 }
 
 .about-content {
   margin: 20px 0px;
+}
+
+body.projects {
+  background-color: var(--primary-color);
+}
+
+.project-page {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 @media (max-width: 576px) {
