@@ -176,6 +176,21 @@ body.projects {
   margin-bottom: 150px;
 }
 
+.project-app-pics {
+  margin: 0px 10px 70px 10px;
+}
+
+.project-descriptions {
+  text-align: center;
+  font-family: var(--secondary-font-family);
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.collaborate {
+  max-width: 100%;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 20px;
