@@ -176,9 +176,9 @@ body.projects {
 }
 
 .project-container {
-  margin-left: 544px;
-  margin-right: 544px;
   margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .collaborate {
