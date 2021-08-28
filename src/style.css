@@ -168,23 +168,17 @@ body.projects {
   background-color: var(--primary-color);
 }
 
-.project-page {
-  text-align: center;
-  display: flex;
-  margin: 0 auto;
-  margin-top: 150px;
-  margin-bottom: 150px;
-}
-
-.project-app-pics {
-  margin: 0px 10px 70px 10px;
-}
-
 .project-descriptions {
   text-align: center;
   font-family: var(--secondary-font-family);
   color: var(--secondary-color);
   font-size: 20px;
+}
+
+.project-container {
+  margin-left: 544px;
+  margin-right: 544px;
+  margin: 0 auto;
 }
 
 .collaborate {
