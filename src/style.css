@@ -41,7 +41,8 @@ a.professional:visited {
   color: white;
 }
 
-a.footer {
+a.footer,
+a.footer-project {
   text-decoration: none;
   color: var(--secondary-color);
 }
@@ -52,6 +53,14 @@ a.footer:hover {
 
 a.footer:visited {
   color: var(--accent-color);
+}
+
+a.footer-project:hover {
+  color: var(--primary-color);
+}
+
+a.footer-project:visited {
+  color: var(--primary-color);
 }
 
 .header {
