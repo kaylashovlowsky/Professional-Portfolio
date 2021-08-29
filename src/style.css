@@ -263,6 +263,7 @@ body.projects {
 }
 
 .contact-content {
+  margin: 0 auto;
   margin-top: 50px;
   padding: 0px 40px;
   font-family: var(--secondary-font-family);
@@ -333,4 +334,9 @@ body.projects {
   .content-group {
     margin-top: 5px;
     margin-bottom: 5px;
+  }
+  .contact-content {
+    margin-bottom: 130px;
+    font-size: 20px;
+  }
 }
