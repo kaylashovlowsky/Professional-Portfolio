@@ -209,6 +209,14 @@ body.projects {
   opacity: 0.7;
   color: white;
 }
+
+.btn-primary:visited {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  opacity: 0.7;
+  color: white;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 20px;
