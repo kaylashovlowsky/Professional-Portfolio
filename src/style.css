@@ -147,6 +147,13 @@ hr {
   font-family: var(--secondary-font-family);
 }
 
+.footer-project-page {
+  background-color: var(--accent-color);
+  padding: 50px;
+  color: var(--secondary-color);
+  font-family: var(--secondary-font-family);
+}
+
 .about-intro {
   margin: 0 auto;
   margin-top: 150px;
@@ -175,12 +182,15 @@ body.projects {
 
 .project-container {
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 150px;
 }
 
-.collaborate {
-  max-width: 100%;
+.page-title {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 150px;
 }
 
 .content-group {
@@ -215,6 +225,28 @@ body.projects {
   border: 1px solid var(--secondary-color);
   opacity: 0.7;
   color: white;
+}
+
+.collaborate-img {
+  max-width: 650px;
+  border-radius: 5px;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.contact-content {
+  margin-top: 50px;
+  padding: 0px 40px;
+  font-family: var(--secondary-font-family);
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.email,
+.linkedin,
+.instagram {
+  font-weight: 500;
 }
 
 @media (max-width: 576px) {
