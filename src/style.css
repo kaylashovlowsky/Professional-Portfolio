@@ -340,3 +340,8 @@ body.projects {
     font-size: 20px;
   }
 }
+@media (max-width: 992px) {
+  .footer-content {
+    margin-bottom: 0px;
+  }
+}
