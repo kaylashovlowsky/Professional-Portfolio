@@ -318,4 +318,19 @@ body.projects {
     text-align: center;
     margin-bottom: 50px;
   }
+
+  .page-title {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .project-container {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .content-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
