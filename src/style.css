@@ -131,9 +131,7 @@ hr {
   font-weight: 700;
 }
 
-.blog,
-.vanilla,
-.react {
+.row-content {
   padding: 30px 0px;
 }
 
