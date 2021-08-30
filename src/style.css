@@ -271,6 +271,10 @@ body.projects {
   font-weight: 200;
 }
 
+.container-contact {
+  margin: 0 auto;
+}
+
 .email,
 .linkedin,
 .instagram {
@@ -347,5 +351,21 @@ body.projects {
 
   .footer-about-page {
     margin-top: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-contact-page {
+    margin-top: 450px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer-contact-page {
+    margin-top: 550px;
+  }
+
+  .contact-row {
+    margin-left: 50px;
   }
 }
