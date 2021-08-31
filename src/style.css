@@ -8,6 +8,11 @@
 body {
   background-color: var(--accent-color);
 }
+
+body.projects {
+  background-color: var(--primary-color);
+}
+
 h1,
 h3 {
   font-family: var(--default-font-family);
@@ -63,22 +68,47 @@ a.footer-project:visited {
   color: var(--primary-color);
 }
 
-.header {
-  margin: 0 auto;
-  padding: 160px 20px;
+a.shecodes-link {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
-.hero {
-  border: 1px solid black;
-  padding: 60px;
-  margin: 0 auto;
-  max-width: 800px;
+hr {
+  margin: 0px 200px 0px 200px;
+  font-family: var(--default-font-family);
+  opacity: 1;
 }
 
-.external-links {
-  margin-bottom: 20px;
-  max-width: 400px;
+.about-content {
+  margin: 20px 0px;
   font-family: var(--secondary-font-family);
+}
+
+.about-intro {
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+}
+
+.app-description {
+  padding: 0px 10px;
+  font-family: var(--default-font-family);
+  font-weight: 700;
+}
+
+.app-display {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.app-title {
+  font-family: var(--default-font-family);
+  color: var(--secondary-color);
+  text-align: left;
+  font-size: 25px;
+  padding: 10px 0px 10px 10px;
+  font-weight: 800;
 }
 
 .button-link {
@@ -92,145 +122,6 @@ a.footer-project:visited {
   opacity: 0.9;
   background-color: var(--accent-color);
   transition: color 0.525ms ease;
-}
-
-.link {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-}
-
-.introduction {
-  font-family: var(--secondary-font-family);
-  font-size: 18px;
-  color: var(--secondary-color);
-  padding: 150px 10px 100px 10px;
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-a.shecodes-link {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-hr {
-  margin: 0px 200px 0px 200px;
-  font-family: var(--default-font-family);
-  opacity: 1;
-}
-
-.app-display {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.sample-apps {
-  border: 7px solid white;
-  border-radius: 5px;
-  height: auto;
-}
-
-.app-title {
-  font-family: var(--default-font-family);
-  color: var(--secondary-color);
-  text-align: left;
-  font-size: 25px;
-  padding: 10px 0px 10px 10px;
-  font-weight: 800;
-}
-
-.small-app-title {
-  font-family: var(--default-font-family);
-  color: var(--secondary-color);
-  font-weight: 800;
-}
-
-.app-description {
-  padding: 0px 10px;
-  font-family: var(--default-font-family);
-  font-weight: 700;
-}
-
-.row-content {
-  padding: 30px 0px;
-}
-
-.secondary-background {
-  background-color: var(--primary-color);
-  padding: 20px;
-}
-
-.footer-content {
-  background-color: var(--primary-color);
-  padding: 50px;
-  color: var(--secondary-color);
-  font-family: var(--secondary-font-family);
-  text-align: center;
-  font-size: 25px;
-}
-
-.footer-project-page {
-  background-color: var(--accent-color);
-  padding: 50px;
-  color: var(--secondary-color);
-  font-family: var(--secondary-font-family);
-}
-
-.about-intro {
-  margin: 0 auto;
-  margin-top: 150px;
-  margin-bottom: 150px;
-  display: flex;
-}
-
-.profile-pic {
-  height: auto;
-  border-radius: 300px;
-}
-
-.about-content {
-  margin: 20px 0px;
-  font-family: var(--secondary-font-family);
-}
-
-body.projects {
-  background-color: var(--primary-color);
-}
-
-.project-descriptions {
-  text-align: center;
-  font-family: var(--secondary-font-family);
-  color: var(--secondary-color);
-  font-size: 20px;
-}
-
-.project-container {
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 150px;
-}
-
-.page-title {
-  font-size: 50px;
-  font-weight: 300;
-  text-align: center;
-  margin-top: 150px;
-}
-
-.content-group {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 20px;
-  padding-bottom: 100px;
-  font-family: var(--secondary-font-family);
-  font-weight: 500;
-  text-align: center;
-}
-
-.language-description {
-  font-size: 15px;
 }
 
 .btn-primary {
@@ -271,6 +162,16 @@ body.projects {
   font-weight: 200;
 }
 
+.content-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  font-family: var(--secondary-font-family);
+  font-weight: 500;
+  text-align: center;
+}
+
 .container-contact {
   margin: 0 auto;
 }
@@ -281,28 +182,119 @@ body.projects {
   font-weight: 500;
 }
 
+.external-links {
+  margin-bottom: 20px;
+  max-width: 400px;
+  font-family: var(--secondary-font-family);
+}
+
+.footer-content {
+  background-color: var(--primary-color);
+  padding: 50px;
+  color: var(--secondary-color);
+  font-family: var(--secondary-font-family);
+  text-align: center;
+  font-size: 25px;
+}
+
+.footer-project-page {
+  background-color: var(--accent-color);
+  padding: 50px;
+  color: var(--secondary-color);
+  font-family: var(--secondary-font-family);
+}
+
+.header {
+  margin: 0 auto;
+  padding: 160px 20px;
+}
+
+.hero {
+  border: 1px solid black;
+  padding: 60px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.introduction {
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  color: var(--secondary-color);
+  padding: 150px 10px 100px 10px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.language-description {
+  font-size: 15px;
+}
+
+.link {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.profile-pic {
+  height: auto;
+  border-radius: 300px;
+}
+
+.project-descriptions {
+  text-align: center;
+  font-family: var(--secondary-font-family);
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.project-container {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.page-title {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.row-content {
+  padding: 30px 0px;
+}
+
+.sample-apps {
+  border: 7px solid white;
+  border-radius: 5px;
+  height: auto;
+}
+
+.small-app-title {
+  font-family: var(--default-font-family);
+  color: var(--secondary-color);
+  font-weight: 800;
+}
+
+.secondary-background {
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 20px;
     font-weight: 400;
   }
+
   h2 {
     font-size: 18px;
   }
+
   h3 {
     font-size: 15px;
     font-weight: 400;
-  }
-  .header {
-    padding: 80px 20px;
-  }
-  .hero {
-    max-width: 450px;
-  }
-
-  .introduction {
-    padding: 60px 10px;
-    text-align: left;
   }
 
   .app-display {
@@ -324,6 +316,27 @@ body.projects {
     margin-bottom: 50px;
   }
 
+  .content-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .contact-content {
+    margin-bottom: 130px;
+    font-size: 20px;
+  }
+
+  .header {
+    padding: 80px 20px;
+  }
+  .hero {
+    max-width: 450px;
+  }
+
+  .introduction {
+    padding: 60px 10px;
+    text-align: left;
+  }
+
   .page-title {
     font-size: 30px;
     font-weight: 500;
@@ -335,15 +348,8 @@ body.projects {
     margin: 0 auto;
     margin-top: 50px;
   }
-  .content-group {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  .contact-content {
-    margin-bottom: 130px;
-    font-size: 20px;
-  }
 }
+
 @media (min-width: 992px) {
   .footer-contact-page {
     margin-top: 350px;
@@ -361,11 +367,11 @@ body.projects {
 }
 
 @media (max-width: 1200px) {
-  .footer-contact-page {
-    margin-top: 550px;
-  }
-
   .contact-row {
     margin-left: 50px;
+  }
+
+  .footer-contact-page {
+    margin-top: 550px;
   }
 }
