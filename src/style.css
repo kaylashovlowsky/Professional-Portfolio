@@ -6,7 +6,7 @@
   --accent-color: #dfe0e0;
 }
 body {
-  background-color: var(--accent-color);
+  background-image: url("./contact-me.jpg");
 }
 
 body.projects {
