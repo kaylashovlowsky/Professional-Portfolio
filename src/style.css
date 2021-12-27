@@ -22,6 +22,7 @@ h1 {
   font-size: 50px;
   padding: 15px 0px;
   font-weight: 300;
+  margin: 0px;
 }
 
 h2 {
@@ -209,11 +210,11 @@ hr {
   padding: 160px 20px;
 }
 
-.hero {
-  border: 1px solid black;
-  padding: 60px;
+.hero-title {
+  padding-left: 0px;
+  padding-right: 0px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 800 px;
 }
 
 .introduction {
