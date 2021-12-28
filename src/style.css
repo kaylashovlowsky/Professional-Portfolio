@@ -90,11 +90,6 @@ hr {
   font-weight: 700;
 }
 
-.app-display {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
 .app-title {
   font-family: var(--default-font-family);
   color: var(--secondary-color);
@@ -312,11 +307,6 @@ hr {
     font-weight: 400;
   }
 
-  .app-display {
-    margin-top: 0px;
-    margin-bottom: 60px;
-  }
-
   .about-intro {
     margin: 0 auto;
     margin-top: 60px;
@@ -338,6 +328,7 @@ hr {
   .contact-content {
     margin-bottom: 130px;
     font-size: 20px;
+    padding: 0px 20px 0px 10px;
   }
 
   .header {
@@ -347,9 +338,38 @@ hr {
     max-width: 450px;
   }
 
+  .centered-hero-title {
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+
+  .centered-second-title {
+    font-size: 25px;
+    position: absolute;
+    top: 13%;
+    left: 10%;
+  }
+
   .introduction {
-    padding: 60px 10px;
+    font-size: 15px;
+    padding: 20px 10px 40px 10px;
     text-align: left;
+  }
+
+  .btn-primary {
+    padding: 20px 40px;
+    margin-left: 20%;
+  }
+
+  .button-link {
+    background-color: var(--secondary-color);
+    padding: 20px 40px;
+    margin: 0 auto;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-left: 100px;
   }
 
   .page-title {
