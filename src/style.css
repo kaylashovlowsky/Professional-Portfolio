@@ -201,7 +201,7 @@ hr {
 .centered-hero-title {
   position: absolute;
   top: 28%;
-  left: 30%;
+  left: 90%;
   font-size: 80px;
   color: black;
   font-family: var(--default-font-family);
@@ -209,7 +209,7 @@ hr {
 
 .centered-second-title {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 32%;
   font-size: 60px;
   color: black;
@@ -340,14 +340,14 @@ hr {
 
   .centered-hero-title {
     font-size: 25px;
-    position: absolute;
+    position: relative;
     top: 10%;
     left: 10%;
   }
 
   .centered-second-title {
     font-size: 25px;
-    position: absolute;
+    position: relative;
     top: 13%;
     left: 10%;
   }
@@ -385,36 +385,7 @@ hr {
   }
 }
 
-@media (min-width: 992px) {
-  .footer-contact-page {
-    margin-top: 350px;
-  }
-
-  .footer-about-page {
-    margin-top: 200px;
-  }
-}
-
 @media (min-width: 768px) {
-  .btn-primary {
-    padding: 20px 40px;
-    margin-left: 37%;
-  }
-
-  .centered-hero-title {
-    font-size: 40px;
-    position: absolute;
-    top: 10%;
-    left: 10%;
-  }
-
-  .centered-second-title {
-    font-size: 40px;
-    position: absolute;
-    top: 13%;
-    left: 10%;
-  }
-
   .introduction {
     font-size: 15px;
     padding: 10px 40px 10px 40px;
@@ -429,13 +400,31 @@ hr {
     margin-top: 450px;
   }
 }
-
-@media (max-width: 1200px) {
-  .contact-row {
-    margin-left: 50px;
+@media (min-width: 992px) {
+  .footer-contact-page {
+    margin-top: 350px;
   }
 
-  .footer-contact-page {
-    margin-top: 550px;
+  .footer-about-page {
+    margin-top: 200px;
+  }
+
+  .index-projects {
+    padding: 20px 40px;
+    margin-left: 42%;
+  }
+
+  .centered-hero-title {
+    font-size: 60px;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+  }
+
+  .centered-second-title {
+    font-size: 45px;
+    position: absolute;
+    top: 30%;
+    left: 34%;
   }
 }
