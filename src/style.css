@@ -133,6 +133,13 @@ hr {
   color: white;
 }
 
+.resume-button {
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+
 .collaborate-img {
   max-width: 650px;
   border-radius: 5px;
@@ -148,6 +155,7 @@ hr {
   font-family: var(--secondary-font-family);
   font-size: 25px;
   font-weight: 200;
+  text-align: center;
 }
 
 .content-group {
@@ -386,7 +394,8 @@ hr {
 
   .resume-button {
     padding: 20px 40px;
-    margin-left: 32%;
+    margin: 0 auto;
+    margin-bottom: 40px;
   }
 }
 
@@ -421,7 +430,6 @@ hr {
   }
   .resume-button {
     padding: 20px 40px;
-    margin-left: 30%;
   }
   .footer-contact-page {
     margin-top: 450px;
@@ -457,6 +465,5 @@ hr {
 
   .resume-button {
     padding: 20px 40px;
-    margin-left: 42%;
   }
 }
