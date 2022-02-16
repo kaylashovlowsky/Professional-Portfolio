@@ -432,34 +432,12 @@ hr {
 }
 
 @media (min-width: 768px) {
-  .centered-hero-title {
-    font-size: 40px;
-    position: absolute;
-    top: 10%;
-    left: 10%;
-  }
-
-  .centered-second-title {
-    font-size: 35px;
-    position: absolute;
-    top: 14%;
-    left: 10%;
-  }
-
-  .introduction {
-    font-size: 15px;
-    padding: 10px 40px 10px 40px;
-    text-align: center;
-  }
   .contact-content {
     margin-bottom: 130px;
     font-size: 20px;
     padding: 0px 20px 0px 10px;
   }
-  .index-projects {
-    padding: 20px 40px;
-    margin-left: 38%;
-  }
+
   .resume-button {
     padding: 20px 40px;
   }
@@ -474,25 +452,6 @@ hr {
 
   .footer-about-page {
     margin-top: 200px;
-  }
-
-  .index-projects {
-    padding: 20px 40px;
-    margin-left: 42%;
-  }
-
-  .centered-hero-title {
-    font-size: 60px;
-    position: absolute;
-    top: 20%;
-    left: 32%;
-  }
-
-  .centered-second-title {
-    font-size: 45px;
-    position: absolute;
-    top: 30%;
-    left: 34%;
   }
 
   .resume-button {
