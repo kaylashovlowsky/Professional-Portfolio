@@ -325,6 +325,34 @@ hr {
   margin-bottom: 40px;
 }
 
+.resume-body {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.resume-title {
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+  font-size: 10em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.html-resume {
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.html-resume-btn {
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-size: 1em;
+}
+
 .row-content {
   padding: 30px 0px;
 }
