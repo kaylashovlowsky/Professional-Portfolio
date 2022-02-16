@@ -347,20 +347,6 @@ hr {
 }
 
 @media (max-width: 576px) {
-  h1 {
-    font-size: 20px;
-    font-weight: 400;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  h3 {
-    font-size: 15px;
-    font-weight: 400;
-  }
-
   .about-intro {
     margin: 0 auto;
     margin-top: 60px;
@@ -388,28 +374,20 @@ hr {
   .header {
     padding: 80px 20px;
   }
+
   .hero {
-    max-width: 450px;
+    border: none;
   }
 
-  .centered-hero-title {
-    font-size: 25px;
-    position: relative;
-    top: 10%;
-    left: 10%;
+  .hero-name {
+    text-align: center;
+    font-size: 7em;
   }
 
-  .centered-second-title {
-    font-size: 25px;
-    position: relative;
-    top: 13%;
-    left: 10%;
-  }
-
-  .introduction {
-    font-size: 15px;
-    padding: 20px 10px 40px 10px;
-    text-align: left;
+  .hero-title {
+    font-size: 4em;
+    font-weight: 200;
+    margin-top: 30px;
   }
 
   .btn-primary {
