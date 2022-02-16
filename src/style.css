@@ -219,23 +219,6 @@ hr {
   margin-bottom: 80px;
 }
 
-.centered-hero-title {
-  position: absolute;
-  top: 28%;
-  left: 90%;
-  font-size: 80px;
-  color: black;
-  font-family: var(--default-font-family);
-}
-
-.centered-second-title {
-  position: absolute;
-  top: 50%;
-  left: 32%;
-  font-size: 60px;
-  color: black;
-  font-family: var(--default-font-family);
-}
 .index-body {
   background: #f9b248;
 }
@@ -258,14 +241,6 @@ hr {
   font-size: 2em;
   text-align: right;
   padding: 60px 60px;
-}
-
-.index-projects {
-  font-family: var(--default-font-family);
-  font-weight: bold;
-  margin-left: 0 auto;
-  margin-bottom: 5%;
-  padding: 20px 50px;
 }
 
 .index-project-title {
@@ -339,18 +314,24 @@ hr {
   margin-bottom: 20px;
 }
 
-.html-resume {
+.html-resume,
+.all-projects-link {
   margin: 0 auto;
   display: flex;
   margin-bottom: 50px;
 }
 
-.html-resume-btn {
+.html-resume-btn,
+.all-projects-btn {
   justify-content: center;
   margin: 0 auto;
   margin-bottom: 40px;
   margin-top: 40px;
   font-size: 1em;
+}
+
+.all-projects-btn {
+  padding: 25px 45px;
 }
 
 .row-content {
