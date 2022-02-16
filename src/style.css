@@ -79,10 +79,6 @@ hr {
   font-family: var(--default-font-family);
 }
 
-.all-projects-btn {
-  padding: 25px 45px;
-}
-
 .app-description {
   padding: 0px 10px;
   font-family: var(--default-font-family);
@@ -229,6 +225,10 @@ hr {
   margin-bottom: 40px;
   margin-top: 40px;
   font-size: 1em;
+}
+
+.all-projects-btn {
+  padding: 25px 45px;
 }
 
 .index-body {
